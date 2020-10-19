@@ -1,0 +1,150 @@
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: inherit;
+  min-height: inherit;
+}
+
+a:link {
+  color: goldenrod;
+}
+
+a:visited {
+  color: slategray;
+}
+
+a:hover {
+  color: seagreen;
+}
+
+a:active {
+  color: springgreen;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.outer-wrapper {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: static;
+  scrollbar-width: none;
+ -ms-overflow-style: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 700vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+  background-color: yellow;
+}
+
+.slide {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.leftside, .rightside {
+  height: 100vh;
+  display: inline-block;
+}
+
+.insideleft {
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: initial;
+  resize: none;
+}
+
+.leftside {
+  width: 50%;
+  background-color: ;
+  float: left;
+  position: relative;
+  resize: both;
+  overflow: auto;
+  float: center;
+}
+
+.rightside {
+  width: 50%;
+  background-color: ;
+  float: right;
+  position: relative;
+  resize: both;
+  overflow: initial;
+  float: center;
+}
+
+.insideright {
+  width: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  resize: both;
+  overflow: auto;
+  border-radius: 25px;
+  border: 10px solid white;
+  text-align: center;
+  font-size: 13px;
+  padding: 50px;
+  color: salmon;
+}
+
+.one {
+  background: #edc7b7;
+}
+
+.two {
+  background: #eee2dc;
+}
+
+.three {
+  background: #bab2b5;
+}
+
+.four {
+  background: #123c69;
+}
+
+.five {
+  background: #ac3b61;
+}
+
+.six {
+  background: #edc7b7;
+}
+
+.seven {
+  background: #eee2dc;
+}
+
+.eight {
+  background: #bab2b5;
+}
+
+.nine {
+  background: #edc7b7;
+}
+
+.ten {
+  background: #eee2dc;
+}
